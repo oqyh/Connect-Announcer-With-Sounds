@@ -1,6 +1,6 @@
 #include <sourcemod>
 #include <sdktools_sound>
-#include <colors>
+#include <multicolors>
 #include "geoip.inc"
 
 #pragma semicolon 1
@@ -94,6 +94,13 @@ public LogOnOff()
 
 public OnConfigsExecuted()
 {
+	decl String:FileLocation[PLATFORM_MAX_PATH];
+	GetConVarString( DisconnectSound, FileLocation, sizeof(FileLocation));
+	if(FileLocation[0]!=0) {
+		if(FileExists(FileLocation)) PrecacheSound(FileLocation,true);
+		else LogMessage("%t %s","File Not Found",FileLocation);
+	}
+	
 	if(log == -1) {
 		log = GetConVarInt(Logging);
 		LogOnOff();
@@ -104,7 +111,6 @@ public OnMapStart()
 {
 	decl String:FileLocation[PLATFORM_MAX_PATH];
 	GetConVarString( ConnectSound, FileLocation, sizeof(FileLocation));
-	GetConVarString( DisconnectSound, FileLocation, sizeof(FileLocation));
 	if(FileLocation[0]!=0) {
 		if(FileExists(FileLocation)) PrecacheSound(FileLocation,true);
 		else LogMessage("%t %s","File Not Found",FileLocation);
