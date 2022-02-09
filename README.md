@@ -7,7 +7,7 @@ https://forums.alliedmods.net/showthread.php?t=59949
 
 ```
 -Fix Errors.
--Fix Download and Precach
+-Fix Download and Precach.
 -Sourcemod 1.10+.
 -Added Colors.
 -Added 2 Sounds For Connect And For Disconnect.
