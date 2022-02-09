@@ -17,91 +17,91 @@
 	"Connected_Auth_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, steamid
-		"en"		"{green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
+		"en"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
 	}
 	"Connected_Auth_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, steamid
-		"en"		"{green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 	}
 	"Connected_Auth_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, city, country, steamid
-		"en"		"{green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}, {3}"
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}, {3}"
 	}
 	"Connected_Ip_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, ip
-		"en"		"{green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
+		"en"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
 	}
 	"Connected_Ip_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, ip
-		"en"		"{green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
 	}
 	"Connected_Ip_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, city, country, ip
-		"en"		"{green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2}, {3}"
+		"en"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2}, {3}"
 	}
 	"Connected_1"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, auth, ip
-		"en"		"{green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect {green}{3}"
+		"en"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect {green}{3}"
 	}
 	"Connected_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, auth, ip
-		"en"		"{green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{4}{DEFAULT})"
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{4}{DEFAULT})"
 	}
 	"Connected_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}" // name, city, country, auth, ip
-		"en"		"{1} connected from {2}, {3} with ID: {4} and IP: {5}"
+		"en"		" {1} connected from {2}, {3} with ID: {4} and IP: {5}"
 	}
 	"Disconnected_Auth_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, steamid
-		"en"		"{red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
+		"en"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
 	}
 	"Disconnected_Auth_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, steamid
-		"en"		"{red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
+		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
 	}
 	"Disconnected_Auth_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, city, country, steamid
-		"en"		"{red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}, {3}"
+		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}, {3}"
 	}
 	"Disconnected_Ip_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, ip
-		"en"		"{red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
+		"en"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
 	}
 	"Disconnected_Ip_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, ip
-		"en"		"{red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2}, {3}"
+		"en"		" {red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2}, {3}"
 	}
 	"Disconnected_Ip_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, city, country, ip
-		"en"		"{red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2}, {3}"
+		"en"		" {red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2}, {3}"
 	}
 	"Disconnected_1"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, auth, ip
-		"en"		"{red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect {red}{3}"
+		"en"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect {red}{3}"
 	}
 	"Disconnected_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, auth, ip
-		"en"		"{red}{1} {DEFAULT}({red}{3}{DEFAULT}) has connect {red}{2} {DEFAULT}({red}{4}{DEFAULT})"
+		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has connect {red}{2} {DEFAULT}({red}{4}{DEFAULT})"
 	}
 	"Disconnected_3"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}" // name, city, country, auth, ip
-		"en"		"{1} disconnected from {2}, {3} with ID: {4} and IP: {5}"
+		"en"		" {1} disconnected from {2}, {3} with ID: {4} and IP: {5}"
 	}
 }
