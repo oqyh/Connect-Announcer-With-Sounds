@@ -1,4 +1,5 @@
 # Connect / Disconnect Announcer With Sounds 3.0.0
+https://forums.alliedmods.net/showthread.php?t=59949
 
 ![alt text](https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/connect.png?raw=true)
 
