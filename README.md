@@ -5,6 +5,13 @@ https://forums.alliedmods.net/showthread.php?t=336293
 
 ![alt text](https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/disconnect.png?raw=true)
 
+
+## .:[ Colors ]:.
+```
+{default}", "{darkred}", "{green}", "{lightgreen}", "{red}", "{blue}", "{olive}", "{lime}", "{lightred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightred2}
+```
+
+
 ## .:[ ConVars ]:.
 ```
 // country name print type 1 = print shortname, 2 = print full name(Def 1)
@@ -51,4 +58,3 @@ disconnect_sound_files "gold_kingz/left.mp3"
 -Added Colors.
 -Added 2 Sounds For Connect And For Disconnect.
 ```
-
