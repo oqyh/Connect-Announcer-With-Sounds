@@ -6,7 +6,7 @@ https://forums.alliedmods.net/showthread.php?t=336293
 ![alt text](https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/disconnect.png?raw=true)
 
 ## .:[ ConVars ]:.
-`
+```
 // country name print type 1 = print shortname, 2 = print full name(Def 1)
 cd_country_type "1"
 
@@ -40,7 +40,7 @@ connect_sound_file "gold_kingz/join.mp3"
 
 // Sound file location to be played on a disconnect under the sounds directory (Def =buttons/blip1.wav)
 disconnect_sound_files "gold_kingz/left.mp3"
-`
+```
 
 
 ## .:[ Change Log ]:.
