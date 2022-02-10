@@ -1,6 +1,10 @@
 #include <sourcemod>
 #include <sdktools_sound>
 #include <multicolors>
+#include <sdktools>
+#include <sdkhooks>
+#include <clientprefs>
+
 #include "geoip.inc"
 
 #pragma semicolon 1
@@ -94,13 +98,6 @@ public LogOnOff()
 
 public OnConfigsExecuted()
 {
-	decl String:FileLocation[PLATFORM_MAX_PATH];
-	GetConVarString( DisconnectSound, FileLocation, sizeof(FileLocation));
-	if(FileLocation[0]!=0) {
-		if(FileExists(FileLocation)) PrecacheSound(FileLocation,true);
-		else LogMessage("%t %s","File Not Found",FileLocation);
-	}
-	
 	if(log == -1) {
 		log = GetConVarInt(Logging);
 		LogOnOff();
@@ -109,12 +106,26 @@ public OnConfigsExecuted()
 
 public OnMapStart()
 {
-	decl String:FileLocation[PLATFORM_MAX_PATH];
-	GetConVarString( ConnectSound, FileLocation, sizeof(FileLocation));
-	if(FileLocation[0]!=0) {
-		if(FileExists(FileLocation)) PrecacheSound(FileLocation,true);
-		else LogMessage("%t %s","File Not Found",FileLocation);
+	char soundpath[PLATFORM_MAX_PATH];
+	GetConVarString(DisconnectSound, soundpath, sizeof(soundpath));
+	if(!StrEqual(soundpath, ""))
+	{
+		char download[PLATFORM_MAX_PATH];
+		Format(download, sizeof(download), "sound/%s", soundpath);
+		AddFileToDownloadsTable(download);
+		PrecacheSound(soundpath);
 	}
+	
+	char soundpath2[PLATFORM_MAX_PATH];
+	GetConVarString(ConnectSound, soundpath2, sizeof(soundpath2));
+	if(!StrEqual(soundpath2, ""))
+	{
+		char download[PLATFORM_MAX_PATH];
+		Format(download, sizeof(download), "sound/%s", soundpath2);
+		AddFileToDownloadsTable(download);
+		PrecacheSound(soundpath2);
+	}
+
 }
 
 public OnPluginEnd()
