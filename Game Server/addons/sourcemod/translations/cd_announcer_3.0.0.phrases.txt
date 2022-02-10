@@ -1,5 +1,4 @@
-//char 1 =   <-- this is used for yellow color which is normal chat color
-//char 4:  <-- this is used for green chat color
+//Colors = {default}", "{darkred}", "{green}", "{lightgreen}", "{red}", "{blue}", "{olive}", "{lime}", "{lightred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightred2}
 "Phrases"
 {
 	"File Not Found"
