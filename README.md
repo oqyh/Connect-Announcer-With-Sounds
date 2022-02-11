@@ -18,7 +18,7 @@ https://forums.alliedmods.net/showthread.php?t=336293
 cd_announcer_version "3.0.0"
 
 // country name print type 1 = print shortname, 2 = print full name(Def 1)
-cd_country_type "1"
+cd_country_type "2"
 
 // location of the log file relative to the sourcemod folder
 cd_logfile "data/cd_logs.log"
@@ -48,11 +48,10 @@ cd_sound_connect "1"
 cd_sound_disconnect "1"
 
 // Sound file location to be played on a connect under the sounds directory (Def =buttons/blip1.wav)
-connect_sound_file "gold_kingz/join.mp3"
+connect_sound_file "gold_kingz/joingame.mp3"
 
 // Sound file location to be played on a disconnect under the sounds directory (Def =buttons/blip1.wav)
-// Default: "gold_kingz/left.mp3"
-disconnect_sound_files "gold_kingz/left.mp3"
+disconnect_sound_files "gold_kingz/leftgame.mp3"
 ```
 
 
