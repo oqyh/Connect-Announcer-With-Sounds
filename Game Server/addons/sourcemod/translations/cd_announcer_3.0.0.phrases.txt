@@ -1,4 +1,4 @@
-///Colors = {default}", "{darkred}", "{green}", "{lightgreen}", "{red}", "{blue}", "{olive}", "{lime}", "{lightred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightred2}
+///Colors = "{default}", "{green}", "{lightgreen}", "{darkred}", "{blue}", "{olive}", "{lime}", "{lightdarkred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightdarkred2}"
 "Phrases"
 {
 	"File Not Found"
@@ -28,7 +28,7 @@
 	"Network"
 	{
 		"en"			"local network"
-		"es"			"Red Local"
+		"es"			"darkred Local"
 		"ru"			"☺не найдена. ♦(локальная сеть)"
 	}
 	"Connected_Auth_1"
@@ -90,57 +90,57 @@
 	"Disconnected_Auth_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, steamid
-		"en"		" {red}{1}{DEFAULT}({red}{2}{DEFAULT}) has disconnect"
-		"es"		" {red}{1}{DEFAULT}({red}{2}{DEFAULT}) has disconnect"
-		"ru"		" {red}{1}{DEFAULT}({red}{2}{DEFAULT}) has disconnect"
+		"en"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"es"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"ru"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 	}
 	"Disconnected_Auth_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, steamid
-		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"es"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"ru"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 	}
 	"Disconnected_Country_1"
 	{
 		"#format"	"{1:s}" // name
-		"en"		" {red}{1} {DEFAULT}has disconnect"
-		"es"		" {red}{1} {DEFAULT}has disconnect"
-		"ru"		" {red}{1} {DEFAULT}has disconnect"
+		"en"		" {darkred}{1} {DEFAULT}has disconnect"
+		"es"		" {darkred}{1} {DEFAULT}has disconnect"
+		"ru"		" {darkred}{1} {DEFAULT}has disconnect"
 	}
 	"Disconnected_Country_2"
 	{
 		"#format"	"{1:s},{2:s}" // name, country
-		"en"		" {red}{1} {DEFAULT}has disconnect {red}{2}"
-		"es"		" {red}{1} {DEFAULT}has disconnect {red}{2}"
-		"ru"		" {red}{1} {DEFAULT}has disconnect {red}{2}"
+		"en"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
+		"es"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
+		"ru"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
 	}
 	"Disconnected_Ip_1"
 	{
 		"#format"	"{1:s},{2:s}" // name, ip
-		"en"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
-		"es"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
-		"ru"		" {red}{1} {DEFAULT}({red}{2}{DEFAULT}) has disconnect"
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"es"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+		"ru"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
 	}
 	"Disconnected_Ip_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, country, ip
-		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"es"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"ru"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 	}
 	"Disconnected_1"
 	{
 		"#format"	"{1:s},{2:s},{3:s}" // name, auth, ip
-		"en"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"es"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
-		"ru"		" {red}{1} {DEFAULT}({red}{3}{DEFAULT}) has disconnect {red}{2}"
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"es"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+		"ru"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
 	}
 	"Disconnected_2"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, auth, ip
-		"en"		" {red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2} {DEFAULT}({red}{3}{DEFAULT})"
-		"es"		" {red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2} {DEFAULT}({red}{3}{DEFAULT})"
-		"ru"		" {red}{1} {DEFAULT}({red}{4}{DEFAULT}) has disconnect {red}{2} {DEFAULT}({red}{3}{DEFAULT})"
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
+		"es"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
+		"ru"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
 	}
 }
