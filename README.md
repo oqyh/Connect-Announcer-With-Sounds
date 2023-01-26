@@ -1,39 +1,35 @@
-# [ANY] Connect / Disconnect Announcer With Sounds (3.0.1)
+# [ANY] Connect / Disconnect Announcer With Sounds (3.0.2)
 https://forums.alliedmods.net/showthread.php?t=336293
+
+### Connect / Disconnect Announcer ( Sound on connect , Sound on disconnect , hide message connect , hide message disconnect , custom sound join leave , custom sound vip flag , support country city ip steamid )
 
 ![alt text](https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/connect.png?raw=true)
 
 ![alt text](https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/disconnect.png?raw=true)
 
 
-## .:[ Colors ]:.
-```
-"{default}", "{darkred}", "{green}", "{lightgreen}", "{blue}", "{olive}", "{lime}", "{lightred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightred2}"
-```
-
-
 ## .:[ ConVars ]:.
 ```
-///////////////////////////////////////////////////////////////////////////////////////////
-// Remove Default Connect Messages || 1= Yes || 0= No
-cnd_connect_messages "1"
+//////////////////////>>  .;[ Connect/Disconnect Announcer ];.
 
-// Remove Default Disconnect Messages || 1= Yes || 0= No
-cnd_disconnect_messages "1"
-///////////////////////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////////////////////
-// 1 = show all(connects, and disconnects), 2 = show connects only, 3 = show disconnects only
-cnd_showall "1"
-
-// 1 = by SteamId, 2 = by Ip, 3 = ip and SteamId, 4 = No ip and SteamId (Def 1)
+// Print chat mode || 1= by SteamId || 2= by Ip || 3= ip and SteamId || 4= No ip and SteamId only
 cnd_mode "1"
 
-// country name print type || 1= print shortname || 2= print full name
-cnd_country_type "1"
+// Connect/disconnect print type  || 1 = Show all(connects, and disconnects) || 2 = Show connects only || 3 = Show disconnects only
+cnd_type "1"
 
-// priting country names || 1= Yes || 0= No
-cnd_printcountry "1"
+// Print chat type || 1= shortcountry only || 2= longcountry only || 3= shortcountry with city || 4= longcountry with city
+cnd_print_type "3"
+
+// Print country names || 2= country with city || 1= country only || 0= No country
+cnd_print_country "2"
+
+// Shows Admins on connect/disconnect || 1= Yes || 0= No (admins join with no sounds and no print)
+cnd_showadmins "1"
+
+
+
+//////////////////////>>  .;[ Sounds ];.
 
 // Toggles connect sound || 1= Yes || 0= No
 cnd_sound_connect "1"
@@ -47,25 +43,46 @@ cnd_sound_disconnect "1"
 // Sound location When Someone Disonnect To The Server
 cnd_disconnect_sound_files "gold_kingz/leftgame.mp3"
 
-// Shows Admins on connect/disconnect || 1= Show || 0= Dont Show
-cnd_showadmins "1"
-///////////////////////////////////////////////////////////////////////////////////////////
+// Toggles connect and disconnect sound for custom flag only || 1= Yes || 0= No (everyone)
+cnd_enable_only_flag "0"
 
-///////////////////////////////////////////////////////////////////////////////////////////
-// 1 = by SteamId, 2 = by Ip, 3 = ip and SteamId, 4 = No ip and SteamId (Def 1)
+// If cnd_enable_only_flag 1 which flag is it
+cnd_sound_flag "t"
+
+
+
+//////////////////////>>  .;[ Logs ];.
+
+// Logging of connects and disconnect to a log file || 0= Off || 1= On || 2= On only log annoucers
+cnd_loggin "0"
+
+// Log mode || 1= by SteamId || 2= by Ip || 3= ip and SteamId || 4= No ip and SteamId only
 cnd_mode_log "1"
 
-// logging of connects and disconnect to a log file || 0= Off || 1= On || 2= On only log annoucers
-cnd_loggin "1"
-
-// location of the log file relative to the sourcemod folder
+// Location of the log file relative to the sourcemod folder
 cnd_logfile "data/cnd_logs.log"
-///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+//////////////////////>>  .;[ Misc ];.
+
+// Remove Default Connect Messages || 1= Yes || 0= No
+cnd_connect_messages "1"
+
+// Remove Default Disconnect Messages || 1= Yes || 0= No
+cnd_disconnect_messages "1"
 ```
 
 
 ## .:[ Change Log ]:.
 ```
+(3.0.2)
+- Fix Bugs
+- New Syntax
+- Added city support
+- Added custom sound for custom flag vip
+- fix cnd_sound_connect and cnd_sound_disconnect if disable will not download sounds
+
 (3.0.1)
 - Fix Bugs
 - Added Remove Default Connect Messages
