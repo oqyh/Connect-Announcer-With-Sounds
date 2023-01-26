@@ -90,11 +90,11 @@ cnd_disconnect_messages "1"
 
 (3.0.0)
 - Initial Release
--Fix Errors.
--Fix Download and Precach.
--Sourcemod 1.10+.
--Added Colors.
--Added 2 Sounds For Connect And For Disconnect.
+- Fix Errors.
+- Fix Download and Precach.
+- Sourcemod 1.10+.
+- Added Colors.
+- Added 2 Sounds For Connect And For Disconnect.
 ```
 
 ## .:[ Donation ]:.
