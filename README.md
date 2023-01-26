@@ -74,6 +74,19 @@ cnd_disconnect_messages "1"
 ```
 
 
+## .:[ Custom Sound ]:.
+```
+follow these steps to avoid bug custom sound
+
+1- first take mp3 file and converter the file to 128kbps here is example site [[url]https://online-audio-converter.com][/url]
+
+2- after convert check Bit rate by Rightclick on Mp3 > Properties  > Details 
+[IMG]https://github.com/oqyh/Connect-Announcer-With-Sounds/blob/main/images/images.png?raw=true[/IMG]
+
+3- upload mp3 to game server and fastdl
+```
+
+
 ## .:[ Change Log ]:.
 ```
 (3.0.2)
