@@ -1,0 +1,148 @@
+///Colors = "{default}", "{green}", "{lightgreen}", "{darkred}", "{blue}", "{olive}", "{lime}", "{lightdarkred}", "{purple}", "{grey}", "{yellow}", "{orange}", "{bluegrey}", "{lightblue}", "{darkblue}", "{grey2}", "{orchid}", "{lightdarkred2}"
+"Phrases"
+{
+	"File Not Found"
+	{
+		"en"			"File not found"
+	}
+	"Start Log"
+	{
+		"en"			"Start logging"
+	}
+	"End Log"
+	{
+		"en"			"End logging"
+	}
+	"File Not Created"
+	{
+		"en"			"Cannot create log file"
+	}
+	"UnknowCountry"
+	{
+		"en"			"Unknow Country"
+	}
+	"UnknowCity"
+	{
+		"en"			"Unknow City"
+	}
+	"Connected_Auth_1"
+	{
+		"#format"	"{1:s},{2:s}" // name, steamid
+		"en"		" {green}{1}{DEFAULT}({green}{2}{DEFAULT}) has connect"
+	}
+	"Connected_Auth_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, steamid
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+	}
+	"Connected_Auth_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, city, steamid
+		"en"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} - {3}"
+	}
+	"Connected_Ip_1"
+	{
+		"#format"	"{1:s},{2:s}" // name, ip
+		"en"		" {green}{1} {DEFAULT}({green}{2}{DEFAULT}) has connect"
+	}
+	"Connected_Ip_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, ip
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+	}
+	"Connected_Ip_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, city, ip
+		"en"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} - {3}"
+	}
+	"Connected_1"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, auth, ip
+		"en"		" {green}{1} {DEFAULT}({green}{3}{DEFAULT}) has connect {green}{2}"
+	}
+	"Connected_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, auth, ip
+		"en"		" {green}{1} {DEFAULT}({green}{4}{DEFAULT}) has connect {green}{2} {DEFAULT}({green}{3}{DEFAULT})"
+	}
+	"Connected_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}" // name, country,city, auth, ip
+		"en"		" {green}{1} {DEFAULT}({green}{5}{DEFAULT}) has connect {green}{2} - {3} {DEFAULT}({green}{4}{DEFAULT})"
+	}
+	"Connected_Country_1"
+	{
+		"#format"	"{1:s}" // name
+		"en"		" {green}{1} {DEFAULT}has connect"
+	}
+	"Connected_Country_2"
+	{
+		"#format"	"{1:s},{2:s}" // name, country
+		"en"		" {green}{1} {DEFAULT}has connect {green}{2}"
+	}
+	"Connected_Country_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, city
+		"en"		" {green}{1} {DEFAULT}has connect {green}{2} - {3}"
+	}
+	"Disconnected_Auth_1"
+	{
+		"#format"	"{1:s},{2:s}" // name, steamid
+		"en"		" {darkred}{1}{DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+	}
+	"Disconnected_Auth_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, steamid
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+	}
+	"Disconnected_Auth_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, city, steamid
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} - {3}"
+	}
+	"Disconnected_Country_1"
+	{
+		"#format"	"{1:s}" // name
+		"en"		" {darkred}{1} {DEFAULT}has disconnect"
+	}
+	"Disconnected_Country_2"
+	{
+		"#format"	"{1:s},{2:s}" // name, country
+		"en"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2}"
+	}
+	"Disconnected_Country_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, city
+		"en"		" {darkred}{1} {DEFAULT}has disconnect {darkred}{2} - {3}"
+	}
+	"Disconnected_Ip_1"
+	{
+		"#format"	"{1:s},{2:s}" // name, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{2}{DEFAULT}) has disconnect"
+	}
+	"Disconnected_Ip_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, country, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+	}
+	"Disconnected_Ip_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, city, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} - {3}"
+	}
+	"Disconnected_1"
+	{
+		"#format"	"{1:s},{2:s},{3:s}" // name, auth, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{3}{DEFAULT}) has disconnect {darkred}{2}"
+	}
+	"Disconnected_2"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}" // name, country, auth, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{4}{DEFAULT}) has disconnect {darkred}{2} {DEFAULT}({darkred}{3}{DEFAULT})"
+	}
+	"Disconnected_3"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}" // name, country, city, auth, ip
+		"en"		" {darkred}{1} {DEFAULT}({darkred}{5}{DEFAULT}) has disconnect {darkred}{2} - {3} {DEFAULT}({darkred}{4}{DEFAULT})"
+	}
+}
